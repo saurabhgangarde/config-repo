@@ -9,10 +9,10 @@ eureka:
 security:
   oauth2:
     client:
-      accessTokenUri: http://localhost:8899/userauth/oauth/token
-      userAuthorizationUri: http://localhost:8899/userauth/oauth/authorize
+      accessTokenUri: http://localhost:8899/userauth/oauth/token/
+      userAuthorizationUri: http://localhost:8899/userauth/oauth/authorize/
       clientId: acme
-      clientSecret: amcesecret
+      clientSecret: acmesecret
     resource:
       jwt:
         keyValue: |
