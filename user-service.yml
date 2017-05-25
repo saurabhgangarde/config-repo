@@ -1,6 +1,6 @@
 server:
   port: 8764
-
+  contextPath: /user-service
 eureka:
   client:
     serviceUrl:
