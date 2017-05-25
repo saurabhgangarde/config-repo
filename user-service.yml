@@ -12,7 +12,7 @@ security:
       accessTokenUri: http://localhost:8899/userauth/oauth/token
       userAuthorizationUri: http://localhost:8899/userauth/oauth/authorize
       clientId: acme
-      clientSecret: amcesecret
+      clientSecret: acmesecret
     resourse:
       jwt:
         keyValue: |
