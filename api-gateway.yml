@@ -34,7 +34,11 @@ zuul:
     users:
       path: /user-service/**
       stripPrefix: false
-      serviceId: user-service  
+      serviceId: user-service
+    tasks:
+      path: /task-service/**
+      stripPrefix: false
+      serviceId: task-service  
 
 spring:
   aop:
